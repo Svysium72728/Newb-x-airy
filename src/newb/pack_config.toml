@@ -1,5 +1,5 @@
 name = "Newb x Airy"
-version = [0, 16, 57]
+version = [0, 1, 0]
 min_supported_mc_version = [1, 26, 60]
 description = '''
 §c%w
@@ -7,9 +7,9 @@ description = '''
 %v
 §3https://newb-shader.devendrn.com/
 ''' # %w = patch warning, %v = version
-authors = ["devendrn"]
+authors = ["Coolguyhehe2515", "devendrn"]
 url = "https://newb-shader.devendrn.com/"
-uuid = "95f774cf-4afa-73e7-a21a-72146307b1d2" # Use https://www.uuidgenerator.net/version4
+uuid = "7f3a9c21-8b64-4e52-a1d7-6c9f02b85e43" # Use https://www.uuidgenerator.net/version4
 materials = ["Actor", "ActorGlint", "ActorMultiTexture", "Clouds", "EndSky", "ItemInHandColor", "ItemInHandColorGlint", "ItemInHandTextured", "RenderChunk","Sky", "Stars", "SunMoon", "Weather"]
 
 [info] 
@@ -27,54 +27,6 @@ credits = '''
 
 # subpacks are arranged in left to right order
 # right-most subpack is enabled by default
-[[subpack]]
-define = "REALISTIC_CLOUDS"
-materials = ["Clouds", "RenderChunk"]
-description = '''
-Realistic clouds
-'''
-
-[[subpack]]
-define = "ROUNDED_CLOUDS"
-materials = ["Clouds"]
-description = '''
-Rounded Clouds
-'''
-
-[[subpack]]
-define = "BOX_CLOUDS"
-materials = ["Clouds", "RenderChunk"]
-description = '''
-Box Clouds
-'''
-
-[[subpack]]
-define = "CHUNK_ANIM"
-materials = ["RenderChunk"]
-description = '''
-Chunk loading animation
-'''
-
-[[subpack]]
-define = "NO_WAVE_NO_FOG"
-materials = ["RenderChunk"]
-description = '''
-No fog and wave effects
-'''
-
-[[subpack]]
-define = "NO_FOG"
-materials = ["RenderChunk"]
-description = '''
-No fog effect
-'''
-
-[[subpack]]
-define = "NO_WAVE"
-materials = ["RenderChunk"]
-description = '''
-No wave effects
-'''
 
 #[[subpack]]
 #define = "LITE"
